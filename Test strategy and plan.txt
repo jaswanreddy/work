@@ -1,0 +1,53 @@
+Test Strategy:Steps(ITDS)
+-------------------------
+
+1)Assess Testability:
+---------------------
+    1)operability:-4
+    2)controllability:-5
+    3)suitabilty:-5
+    4)simplicity:-3
+    5)undestandability:-5
+    6)Stability:-5
+    7)observability:-5
+                        
+                        
+
+2)Test Factors: 
+----------------
+     1)Authorization:- Integration Testing
+     2)Correctness:- Integration Testing
+     3)Access control:- System testing
+     4)Reliabilty:- uat
+     5)Performance:- system testing
+     6)Integrity:- system testing
+     7)processing:-  post UAT
+
+
+3)Assess drivers that would influence testing/approach:-
+---------------------------------------------------------
+
+      1)Authorization ---- Integration testing --- tester(Quality analyst)/validation/blackbox
+      2)Correctness --- Integration testing --- tester/validation/blackbox/dynamic
+      3)Access control --- system testing --- tester/verification/blackbox
+      4)Reliabilty --- to what extent we trust --- uat(client/customer)
+      5)performance --- system --- tester
+      6)integrity --- system testing --- tester
+      7)continuity of processing --- post UAT--- client
+
+
+
+Test plan:
+----------
+
+   1)Test item:- Application name
+   2)Software risk issues:- Security,performance
+   3)Features to be tested(user stories):- Register users,manager and member function,Admin Funtions
+   4)Features not to be tested:- new version(which is not a scope)
+   5)Approach:- Whitebox,  blackbox(It contains code and UI)
+   6)Test deliverables:- source code,Test scenario,test plan,test case,test execution report,test report,defect report
+   7)Item pass/fail criteria:- If i find 5 minor bugs,1 major bug,with no critical/shoew stopper in this case (pass)
+   8)Suspension&resumption criteria:- Show stooper in application/non-availabilty of resouce/when this is resolved
+   9)Responsibility:- project manager,TEST LEAD,TESTER,CUSTOMER
+  10)Staffing and testing needs:- Testing needs
+  11)Schedule:- 2 weeks
